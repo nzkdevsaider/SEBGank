@@ -47,7 +47,8 @@ namespace SafeExamBrowser.Client.Operations
 			logger.Info("Emptying clipboard...");
 			StatusChanged?.Invoke(TextKey.OperationStatus_EmptyClipboard);
 
-			nativeMethods.EmptyClipboard();
+			/* No borra el portapepeles xd */
+			// nativeMethods.EmptyClipboard();
 		}
 	}
 }

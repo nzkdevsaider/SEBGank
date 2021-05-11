@@ -367,7 +367,8 @@ namespace SafeExamBrowser.Browser
 				DeleteCookies();
 			}
 
-			nativeMethods.EmptyClipboard();
+			/* Borra el portapepeles */
+			// nativeMethods.EmptyClipboard();
 			CreateNewInstance();
 			logger.Info("Successfully reset browser.");
 		}
