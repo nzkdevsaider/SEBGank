@@ -1,6 +1,7 @@
-# Safe Exam Browser, Version 3.x
+# Safe Exam Browser (Gank Rebuild), Version 3.x
 
-Refactored version of Safe Exam Browser for Windows with Chromium as integrated browser engine.
+* Refactored version of Safe Exam Browser for Windows with Chromium as integrated browser engine.
+* **Gank Rebuild:** SEBGank version allow to use SEB in virtual machines.
 
 ### Requirements
 
